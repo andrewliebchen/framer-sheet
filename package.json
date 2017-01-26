@@ -1,0 +1,32 @@
+{
+  "name": "framer-sheet",
+  "version": "1.0.0",
+  "description": "Import information from Google Sheets into Framer.",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewliebchen/framer-sheet.git"
+  },
+  "keywords": [
+    "Framer",
+    "Google",
+    "Sheets",
+    "Framer",
+    "module",
+    "FramerJS",
+    "Framer",
+    "Studio"
+  ],
+  "author": "Andrew Liebchen <andrewliebchen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewliebchen/framer-sheet/issues"
+  },
+  "homepage": "https://github.com/andrewliebchen/framer-sheet#readme",
+  "devDependencies": {
+    "tabletop": "^1.5.1"
+  }
+}
