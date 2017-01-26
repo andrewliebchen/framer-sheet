@@ -47,7 +47,24 @@ sheet.get((data, sheet) ->
 » [{Name:"Carrot", Category:"Vegetable", Healthiness:"Adequate"}, {Name:"Pork Shoulder", Category:"Meat", Healthiness:"Questionable"}, {Name:"Bubblegum", Category:"Candy", Healthiness:"Super High"}]
 ```
 
-Pretty cool, huh? You'll see in the example project, I've used Lodash's `map` to split the collection into rows which and cells for a table. This is only the beginning...what else can you think to do?
+Pretty cool, huh? You'll see in the example project, I've used Lodash's `map` to split the collection into rows which and cells for a table.
+
+```coffeescript
+sheet.get((data, sheet) ->
+	_.map data, (row, i) ->
+		@row = new Layer
+			name: 'row'
+			parent: table
+#     ...
+
+    @name = new Layer
+			html: row.Name
+			name: "cell:#{row.Name}"
+			parent: @row
+#     ...
+```
+
+This is only the beginning...what else can you think to do?
 
 ## More information
 
