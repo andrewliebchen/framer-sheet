@@ -44,7 +44,9 @@ sheet.get((data, sheet) ->
 ...which should print an array of objects (a collection) like...
 
 ```
-» [{Name:"Carrot", Category:"Vegetable", Healthiness:"Adequate"}, {Name:"Pork Shoulder", Category:"Meat", Healthiness:"Questionable"}, {Name:"Bubblegum", Category:"Candy", Healthiness:"Super High"}]
+» [{Name:"Carrot", Category:"Vegetable", Healthiness:"Adequate"},
+  {Name:"Pork Shoulder", Category:"Meat", Healthiness:"Questionable"},
+  {Name:"Bubblegum", Category:"Candy", Healthiness:"Super High"}]
 ```
 
 Pretty cool, huh? You'll see in the example project, I've used Lodash's `map` to split the collection into rows which and cells for a table.
