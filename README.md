@@ -6,9 +6,9 @@ Import information from Google Sheets into Framer.
 
 ## Add it to your Framer Studio project
 
+ * Create and save a new Framer project (if you don't have one started already)
  * [Download](https://github.com/andrewliebchen/framer-sheet/archive/master.zip) or clone this repository
  * Copy `sheet.coffee` and `npm.coffee` to your `/modules` directory
- * Save your project
  * Open your Terminal, drag your framer project into the Terminal window and press enter. The path in the Terminal will update to your Framer project
  * Type `npm install tabletop` to get the dependency from NPM
 
