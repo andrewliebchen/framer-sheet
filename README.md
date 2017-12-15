@@ -6,7 +6,7 @@ Import information from Google Sheets into Framer.
 
 ## Add it to your Framer Studio project
 
- * [Download](https://github.com/andrewliebchen/framer-chat/archive/master.zip) or clone this repository
+ * [Download](https://github.com/andrewliebchen/framer-sheet/archive/master.zip) or clone this repository
  * Copy `sheet.coffee` and `npm.coffee` to your `/modules` directory
  * Save your project
  * Open your Terminal, drag your framer project into the Terminal window and press enter. The path in the Terminal will update to your Framer project
